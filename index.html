@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <form class="form">
+        <!--Header==============-->
+        <div class="header">
+            <button class="header__btn"></button>
+            <ul class="header__list">
+                <li class="header__list-item">
+                    <a class="header__link" href="#">Главная</a>
+                </li>
+                <li class="header__list-item">
+                    <a class="header__link" href="#">Контакты</a>
+                </li>
+                <li class="header__list-item">Форма отратной связи
+                </li>
+            </ul>
+            <h1 class="header__title">Форма отратной связи</h1>
+        </div>
+        <!--content==============-->
+        <div class="content">
+                <input class="input__item" type="neme" name="myname" placeholder="Иванов Иван Иванович">
+                <input class="input__item" type="email" name="myemail" placeholder="Введите Ваш Email">
+                <input class="input__item" type="phone" name="myphone" placeholder="Введите Ваш телефон">
+                <textarea class="textarea" type="comment" name="mycomment" placeholder="Введите Ваш коментарий"></textarea>
+            </div>
+        </div>
+        <!--footer==============-->
+        <div class="footer">
+            <div class="footer__left-blog">
+                <input class="input__captcha" type="captcha" name="mycaptcha">
+                <p class="footer__text">Ведите код на картинке с права</p>
+            </div>
+            <div class="footer__right-blog">
+                <img class="footer__img" src="./../assets/img/capcha.png" alt="capcha">
+            </div>
+            <button class="footer__btn">Отправить</button>
+        </div>
+    </form>
+</body>
+
+</html>
